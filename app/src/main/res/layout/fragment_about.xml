@@ -12,8 +12,9 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="154dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/about" />
+        android:layout_height="390dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aboutthree"
+        app:layout_constraintTop_toTopOf="parent" />
 </LinearLayout>
 </layout>
