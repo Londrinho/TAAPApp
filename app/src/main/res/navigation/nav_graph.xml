@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/titleFragment"
         android:name="com.jimmy.taapapp.TitleFragment"
-        android:label="TitleFragment"
+        android:label="@string/HOME"
         tools:layout="layout/fragment_title" />
     <fragment
         android:id="@+id/aboutFragment"
