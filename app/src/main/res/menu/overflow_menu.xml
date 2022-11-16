@@ -7,4 +7,7 @@
     <item
         android:id="@+id/consultancyFragment"
         android:title="@string/consultancy" />
+    <item
+        android:id="@+id/contactFragment"
+        android:title="@string/contact" />
 </menu>

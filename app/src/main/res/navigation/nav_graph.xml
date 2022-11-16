@@ -20,4 +20,9 @@
         android:name="com.jimmy.taapapp.ConsultancyFragment"
         android:label="@string/consultancy"
         tools:layout="@layout/fragment_consultancy" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.jimmy.taapapp.ContactFragment"
+        android:label="@string/contact"
+        tools:layout="@layout/fragment_contact" />
 </navigation>
