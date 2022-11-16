@@ -4,4 +4,7 @@
     <item
         android:id="@+id/aboutFragment"
         android:title="@string/about_taap" />
+    <item
+        android:id="@+id/consultancyFragment"
+        android:title="@string/consultancy" />
 </menu>

@@ -15,4 +15,9 @@
         android:name="com.jimmy.taapapp.AboutFragment"
         android:label="@string/about_taap"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/consultancyFragment"
+        android:name="com.jimmy.taapapp.ConsultancyFragment"
+        android:label="@string/consultancy"
+        tools:layout="@layout/fragment_consultancy" />
 </navigation>
