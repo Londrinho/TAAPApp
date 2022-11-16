@@ -6,18 +6,41 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/taap_blue"
+        android:background="@drawable/gradient"
         tools:context=".AboutFragment">
 
 
         <TextView
             android:id="@+id/about_title"
-            android:layout_width="wrap_content"
+            style="@style/TitleStyle"
             android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
             android:text="@string/driving_digital_transformation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            style="@style/TitleStyle" />
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/about_scroll"
+            android:layout_width="409dp"
+            android:layout_height="584dp"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <TextView
+                android:id="@+id/about_text"
+                style="@style/TitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:paddingBottom="16dp"
+                android:text="@string/about_texts"
+                android:textColor="#F6F0F0"
+                android:textSize="24sp" />
+        </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
